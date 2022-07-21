@@ -7,13 +7,13 @@ import Tweets from "../components/tweets";
 function Home() {
     return(
         
-        <div className="mx-auto min-h-screen overflow-hidden  ">
+        <div className=" ">
         <Head>
           <title>Twitter in Nextjs</title>
           <link rel="icon" href="/twitter.png" />
         </Head>
 
-        <div className="grid grid-cols-9">
+        <div className="grid grid-cols-9 mx-auto min-h-screen overflow-hidden ">
                 <Navbar />
                 
                 <Tweets/>
